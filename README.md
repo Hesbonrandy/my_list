@@ -1,0 +1,28 @@
+This script demonstrates basic list operations in Python, including appending, inserting, extending, removing, sorting, and finding the index of an element.
+
+## Code Overview
+
+```python
+my_list = []
+
+# Append elements to the list
+my_list.append(10)
+my_list.append(20)
+my_list.append(30)
+my_list.append(40)
+
+# Insert an element at the second position
+my_list.insert(1, 15)
+
+# Extend the list with another list
+my_list.extend([50, 60, 70])
+
+# Remove the last element
+my_list.pop()
+
+# Sort the list in ascending order
+my_list.sort()
+
+# Find the index of the value 30
+index_30 = my_list.index(30)
+print("Index of value 30:", index_30)
